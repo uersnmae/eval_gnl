@@ -41,7 +41,7 @@ int	main(void)
 	#elif STDIN
 	printf("Write your line...\n");
 	while (str = get_next_line(1))
-{
+	{
 		printf("File read: %s\n", str);
 		free(str);
 	}
